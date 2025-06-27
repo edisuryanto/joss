@@ -4,7 +4,7 @@ import { connect } from "cloudflare:sockets";
 
 // Variables
 const rootDomain = "pages.dev"; // Ganti dengan domain utama kalian
-const serviceName = "joss-17m"; // Ganti dengan nama workers kalian
+const serviceName = "edi"; // Ganti dengan nama workers kalian
 const apiKey = ""; // Ganti dengan Global API key kalian (https://dash.cloudflare.com/profile/api-tokens)
 const apiEmail = ""; // Ganti dengan email yang kalian gunakan
 const accountID = ""; // Ganti dengan Account ID kalian (https://dash.cloudflare.com -> Klik domain yang kalian gunakan)
@@ -118,7 +118,7 @@ function getAllConfig(request, hostName, proxyList, page = 0) {
 
     // Build HTML
     const document = new Document(request);
-    document.setTitle("Welcome to <span class='text-blue-500 font-semibold'>Edi suryanto Proxy List </span>");
+    document.setTitle("Edi suryanto <span class='text-blue-500 font-semibold'>Proxy List </span>");
     document.addInfo(`Total: ${proxyList.length}`);
     document.addInfo(`Page: ${page}/${Math.floor(proxyList.length / PROXY_PER_PAGE)}`);
 
