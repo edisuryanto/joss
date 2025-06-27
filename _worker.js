@@ -860,8 +860,8 @@ function parseNajortHeader(buffer) {
 //   console.log(`Remaining bytes: ${arrayBufferToHex(buffer.slice(17))}`);
 
 //   // ===== KEY GENERATION =====
-//   const userId = "3b670322-6ac1-41ec-9ff3-714245d41bf7";
-//   const uuidConst = "c48619fe-8f02-49e0-b9e9-edf763e17e21";
+//   const userId = "ENXLkHacrmropjThWAaUrfxa";
+//   const uuidConst = "99504874-998b-4971-890a-e3e044cd6d45";
 
 //   // Step 1: Generate AES key
 //   const key = createHash("md5")
