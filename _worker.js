@@ -2,6 +2,10 @@ import { connect } from "cloudflare:sockets";
 // import { createHash, createDecipheriv } from "node:crypto";
 // import { Buffer } from "node:buffer";
 
+// User configuration and settings
+// Generate UUID: [Windows] Press "Win + R", input cmd and run: Powershell -NoExit -Command "[guid]::NewGuid()"
+ 
+
 // Variables
 const rootDomain = "my.id"; // Ganti dengan domain utama kalian
 const serviceName = "cahkecleng"; // Ganti dengan nama workers kalian
